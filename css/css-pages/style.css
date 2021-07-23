@@ -1,8 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    color: var(--font-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --base-color: #1F80E1;
+    --font-color: #fff;
+    --container-color: #C2C2BC;
+    --shadow-color: #aaaaa7;
+    --body-color: #EFEFEB;
 }
 
 body{
-    background-color: aqua;
+    background-color: var(--body-color);
+}
+
+.header{
+    background-color: var(--base-color);
+    color: var(--font-color);
+    height: 4rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: .80rem;
+}
+
+#botao-voltar{
+    height: 2rem;
+    margin-right: 30rem;
+}
+
+#principal{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    margin: 27.5% 0 27.5% 0;
+}
+
+.cadastro-element{
+    background-color: #fff;
+    border: 0;
+    border-radius: .25rem;
+    width: 20rem;
+    height: 3.5rem;
+    margin: 0 1rem 1rem 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.cadastro-element:focus{
+    border: .15rem var(--base-color) solid;
+}
+
+input{
+    padding-left: .50rem;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#botao{
+    background-color: var(--base-color);
+    border: 0;
+    width: 8rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: .25rem;
+    padding: 0;
+    margin-left: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao:hover{
+    background-color: #64a6e9;
+    cursor: pointer;
+}
+
+footer{
+    background-color: var(--base-color);
+    color: var(--font-color);
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.10rem;
+    justify-content: center;
 }

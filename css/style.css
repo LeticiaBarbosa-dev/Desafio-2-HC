@@ -60,6 +60,11 @@ body{
     text-decoration: none;
 }
 
+.button:hover{
+    background-color: #64a6e9;
+    cursor: pointer;
+}
+
 footer{
     background-color: var(--base-color);
     color: var(--font-color);
