@@ -17,19 +17,35 @@
         <div class="container">
             <form id="form">
                 <div>
-                    <input class="cadastro-element" type="text" placeholder="CPF" required>
-                    <input class="cadastro-element" type="text" placeholder="Nome do Cliente" required>
+                    <input id="cpf" class="cadastro-element" type="text" placeholder="CPF" required>
+                    <input id="nome" class="cadastro-element" type="text" placeholder="Nome do Cliente" required>
                 </div>
                 <div>
-                    <input class="cadastro-element" type="text" placeholder="Endereço">
-                    <input class="cadastro-element" type="text" name="Telefone" placeholder="Telefone">
+                    <input id="endereco" class="cadastro-element" type="text" placeholder="Endereço">
+                    <input id="telefone" class="cadastro-element" type="text" name="Telefone" placeholder="Telefone">
                 </div>
                 <input type="submit" id="botao" value="SALVAR">
             </form>
+        </div>
+        <div class="container-1">
+            <table id="clienteTable" class="records">
+                <thead>
+                    <tr>
+                        <th>CPF</th>
+                        <th>Nome do Cliente</th>
+                        <th>Endereço</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody id="tBody">
+                    
+                </tbody>
+            </table>
         </div>
     </main>
     <footer>
         Copyright © 2021 - Letícia Barbosa
     </footer>
 </body>
+<script src="../js/script-client.js"></script>
 </html>

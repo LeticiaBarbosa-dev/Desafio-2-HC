@@ -17,19 +17,35 @@
         <div class="container">
             <form id="form">
                 <div>
-                    <input class="cadastro-element" type="text" placeholder="Código" required>
-                    <input class="cadastro-element" type="text" placeholder="Nome do Produto" required>
+                    <input id="codigo" class="cadastro-element" type="text" placeholder="Código" required>
+                    <input id="nome" class="cadastro-element" type="text" placeholder="Nome do Produto" required>
                 </div>
                 <div>
-                    <input class="cadastro-element" type="text" placeholder="Quantidade">
-                    <input class="cadastro-element" type="text" name="Lote" placeholder="Telefone">
+                    <input id="quantidade" class="cadastro-element" type="text" placeholder="Quantidade">
+                    <input id="lote" class="cadastro-element" type="text" name="Lote" placeholder="Lote">
                 </div>
                 <input type="submit" id="botao" value="SALVAR">
             </form>
+        </div>
+        <div class="container">
+            <table class="records">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nome do Produto</th>
+                        <th>Quantidade</th>
+                        <th>Lote</th>
+                    </tr>
+                </thead>
+                <tbody id="tBody">
+                    
+                </tbody>
+            </table>
         </div>
     </main>
     <footer>
         Copyright © 2021 - Letícia Barbosa
     </footer>
 </body>
+<script src="../js/script-product.js"></script>
 </html>

@@ -27,15 +27,15 @@ body{
 }
 .principal{
     display: flex;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 10.75rem;
+    margin-bottom: 10.75rem;
     align-content: center;
     justify-content: center;
 }
 
 .container{
     background-color: var(--container-color);
-    height: 24.35rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +49,7 @@ body{
     color: var(--font-color);
     font-weight: bolder;
     margin: 1rem 8rem 1rem 8rem;
-    height: 6.813rem;
+    height: 3rem;
     width: 20rem;
     display: flex;
     justify-content: center;
