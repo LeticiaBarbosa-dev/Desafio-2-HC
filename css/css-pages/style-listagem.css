@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--font-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --base-color: #1F80E1;
+    --font-color: #fff;
+    --container-color: #C2C2BC;
+    --shadow-color: #aaaaa7;
+    --body-color: #EFEFEB;
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+.header{
+    background-color: var(--base-color);
+    color: var(--font-color);
+    height: 4rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: .80rem;
+}
+
+#botao-voltar{
+    height: 2rem;
+    margin-right: 30rem;
+}
+
+
+#principal{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 5vh auto;
+    padding: 50px;
+    box-shadow: 2px 2px 10px var(--shadow-color);
+    gap: 20px;
+}
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 23rem;
+}
+
+.records{
+    width: 100%;
+    user-select: none;
+    text-align: center;
+}
+
+.records th{
+    background-color: var(--base-color);
+    width: 20%;
+    height: 2.5rem;
+}
+
+.records tr:hover{
+    background-color: #fff;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--base-color);
+    color: var(--font-color);
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2.30rem;
+    justify-content: center;
+}
