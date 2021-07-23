@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--font-color);
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --base-color: #1F80E1;
+    --font-color: #fff;
+    --container-color: #C2C2BC;
+    --shadow-color: #aaaaa7;
+}
+
+body{
+    background-image: url("../images/bg.png");
+    width: 100%;
+}
+
+.header{
+    background-color: var(--base-color);
+    color: var(--font-color);
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    display: flex;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: var(--container-color);
+    height: 24.35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: .30rem;
+    box-shadow: 0.188rem .188rem .180rem var(--shadow-color);
+}
+
+.button{
+    background-color: var(--base-color);
+    color: var(--font-color);
+    font-weight: bolder;
+    margin: 1rem 8rem 1rem 8rem;
+    height: 6.813rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--base-color);
+    color: var(--font-color);
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
