@@ -8,6 +8,7 @@ form.addEventListener('submit', (e) => {
     
     let novoCliente = registerProducts.push({codigo: codigo, nome: nome, quantidade: quantidade, lote: lote});
     mostrarNaTabela();
+    clear();
 })
 
 let registerProducts = (function() {
@@ -53,4 +54,8 @@ function mostrarNaTabela(){
         tBody.innerHTML = row;
     }
 }
+
+function clear(){
+    document.querySelector('form').reset();
+ }
 

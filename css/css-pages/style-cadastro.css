@@ -148,3 +148,68 @@ footer{
     justify-content: center;
 }
 
+@media screen and (max-width: 400px){
+
+    .header h1{
+        font-size: 1rem;
+    }
+
+    #botao-voltar{
+        height: 1.5rem;
+        margin-right: 5.5rem;
+    }
+
+    .container{
+        display: flex;
+        margin-left: 2rem;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #botao{
+        margin-left: 6.5rem;
+    }
+    
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .header h1{
+        font-size: 1.5rem;
+    }
+
+    #botao-voltar{
+        height: 1.5rem;
+        margin-right: 8.25rem;
+    }
+
+    .container{
+        display: flex;
+        margin-left: 6rem;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #botao{
+        margin-left: 6.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .header h1{
+        font-size: 2rem;
+    }
+
+    #botao-voltar{
+        height: 1.5rem;
+        margin-right: 6rem;
+    }
+
+    .container{
+        display: flex;
+        margin-left: 8rem;
+        align-content: center;
+        justify-content: center;
+    }
+    
+}

@@ -24,6 +24,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .principal{
     display: flex;
@@ -72,4 +73,59 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and (max-width: 600px){
+    
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header h1{
+        font-size: 1.25rem;
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .button{
+        width: 50%;
+        margin-left: 5rem;
+    }
+    
+    .button a{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header h1{
+        font-size: 1.25rem;
+    }
+
+    .container{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .button{
+        width: 10rem;
+    }
+    .button a{
+        font-size: .75rem;
+    }
 }

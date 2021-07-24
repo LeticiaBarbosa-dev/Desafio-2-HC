@@ -8,8 +8,8 @@ form.addEventListener('submit', (e) => {
     
     let novoCliente = registerClients.push({cpf: cpf, nome: nome, endereco: endereco, telefone: telefone});
     mostrarNaTabela();
+    clear();
 })
-
 let registerClients = (function() {
     function addClient(){
         let client = localStorage.getItem('client');
@@ -52,5 +52,9 @@ function mostrarNaTabela(){
         });
         tBody.innerHTML = row;
     }
+}
+
+function clear(){
+   document.querySelector('form').reset();
 }
 
