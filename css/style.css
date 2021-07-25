@@ -74,8 +74,10 @@ footer{
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width: 600px){
-    
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 640px){
     .header {
         display: flex;
         justify-content: center;
@@ -87,21 +89,17 @@ footer{
     }
 
     .container{
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: center;
         align-content: center;
     }
 
     .button{
-        width: 50%;
-        margin-left: 5rem;
+        width: 60%;
+        /* topo | direita | inferior | esquerda */
+        margin-left: 6.75rem;
     }
-    
-    .button a{
-        font-size: 1rem;
-    }
-
 }
 
 @media screen and (max-width: 400px){
@@ -120,6 +118,32 @@ footer{
         display: flex;
         justify-content: center;
         align-content: center;
+    }
+
+    .button{
+        width: 10rem;
+    }
+    .button a{
+        font-size: .75rem;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header h1{
+        font-size: 1.25rem;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     .button{
