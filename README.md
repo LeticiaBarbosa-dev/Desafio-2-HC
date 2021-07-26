@@ -20,7 +20,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - JS
 
 ## 💻 Projeto
-O sistema de <strong>gestão de cadastros</strong> é um projeto fictício que foi criado para um desafio do programa Hiring Coders, promovido pela Gama Academy. O objetivo do projeto é criar um sistema para cadastrar clientes e produtos e armazaná-los no localStorage.
+O sistema de <strong>gestão de cadastros</strong> é um projeto fictício que foi criado para um desafio do programa Hiring Coders, promovido pela Gama Academy. O objetivo do projeto é criar um sistema para cadastrar clientes e produtos e armazená-los no localStorage.
 
 🔗 Link para o projeto em real time: https://leticiabarbosa-dev.github.io/Desafio-2-HC/
 
